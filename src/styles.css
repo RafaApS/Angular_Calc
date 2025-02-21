@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+h1 {
+    text-align: center;
+    background-color: #3318e9;
+    color: #cf90ff;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 420px;
+    margin-bottom: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
