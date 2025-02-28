@@ -8,4 +8,28 @@ import { Component } from '@angular/core';
 })
 export class FormComponent {
 
+  //atributos
+  num1: number = 0;
+  num2: number = 0;
+  result : number = 0;
+
+  //metodos 
+  onClickSum(){
+    this.result = this.num1 + this.num2
+  };
+  onClickSub(){
+    this.result = this.num1 - this.num2
+  }
+  onClickMult(){
+    this.result = this.num1 * this.num2
+  }
+  onClickDiv(){
+    this.result = this.num1 / this.num2
+  }
+  onClickMed(){
+    this.result = (this.num1 + this.num2)/2
+  }
+  onClickPo(){
+    this.result = this.num1 ** this.num2
+  }
 }

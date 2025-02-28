@@ -1,32 +1,80 @@
-input{
+form{
+    background-color:#ECECEC;
+    padding: 15px;
+    width: 480px;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+}
+
+input, label{
     align-items: center;
     justify-content: center;
+    background-color: #DEDEDE;
     border: none;
-    background-color: #8154f4;
     display: block;
-    margin-top: 5px;
-    width: 400px;
+    place-items: center;
+    margin-top: 15px;
+    width: 470px;
     height: 40px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    padding-left: 5px;
 }
 
-form{
-    background-color:#5a36ef;
-    padding: 20px;
-    width: 400px;
-    text-align: center;
+p{
+    align-items: baseline;
+    color: #565656;
 }
+
 
 button{
-    background-color: #cf90ff;
-    margin-top: 20px;
-    color: #ffff;
+    background-color: #f6f6f6;
+    color: #565656;
     border: none;
-    width: 80px;
-    height: 20px;
+    width: 70px;
+    height: 50px;
+    margin: 5px;
+    font-size: 25px;
+    --shadow-color: #ccc; /* Variável para a cor da sombra */
+    box-shadow: 4px 4px 10px var(--shadow-color);
+    border-radius: 10px;
+}
 
+button:nth-of-type(1) {
+    --shadow-color: rgba(0, 123, 255, 0.5); 
+
+  }
+  
+  button:nth-of-type(2) {
+    --shadow-color: rgba(40, 167, 69, 0.5); 
+
+  }
+  
+  button:nth-of-type(3) {
+    --shadow-color: rgba(220, 53, 69, 0.5); 
+   
+  }
+  
+  button:nth-of-type(4) {
+    --shadow-color: rgba(255, 193, 7, 0.5); 
+ 
+  }
+  
+  button:nth-of-type(5) {
+    --shadow-color: rgba(23, 162, 184, 0.5); 
+
+  }
+  
+  button:nth-of-type(6) {
+    --shadow-color: rgba(111, 66, 193, 0.5); 
+ 
+  }
+
+.media {
+  font-size: 16px;
 }
 
 button:hover{
-    background-color: #513a62;
-    color: #ffff;
+    cursor: pointer;
 }

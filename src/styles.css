@@ -2,12 +2,14 @@
 
 h1 {
     text-align: center;
-    background-color: #3318e9;
-    color: #cf90ff;
+    background-color: #ececec;
+    color: #565656;
     padding: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 420px;
-    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    width: 490px;
+    margin-bottom: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
 }
 
 body{

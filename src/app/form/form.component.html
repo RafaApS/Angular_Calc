@@ -1,6 +1,14 @@
-<form action="">
-    <input type="number">
-    <input type="number">
-    <button>Somar</button>
-    <label for=""></label>
+<form>
+    <input type="number" [(ngModel)]="num1"  name="num1" placeholder="Digite x:">
+    <input type="number" [(ngModel)]="num2"  name="num2" placeholder="Digite y:">
+    <p>Escolha uma opreração:</p>
+    <button (click)="onClickSum()">+</button>
+    <button (click)="onClickSub()">-</button>
+    <button (click)="onClickMult()">*</button>
+    <button (click)="onClickDivgit add .()">/</button>
+    <button class="media"  (click)="onClickMed()">Média</button>
+    <button (click)="onClickPo()">x^y</button>
+    <p>Resultado:</p>
+    <label>{{result}}</label>
+    <!--{{sum}} é um baind-->
 </form>
